@@ -1,0 +1,225 @@
+*
+{
+    padding-top: 200px;
+    margin:0;
+    padding: 0;
+}
+.main
+{
+    background-image:url(maybe2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+.navbar
+{
+    width:1400px;
+    height:75px;
+    margin:auto;
+}
+.icon
+{
+    width:200px;
+    float:left;
+    height:70px;    
+}
+.logo
+{
+    color:#fa892d;
+    font-size:35px;
+    font-family: 'Times New Roman';
+    padding-left: 15px;
+    float:left;
+    padding-top: 10px;
+}
+.menu
+{
+    width:200px;
+    float:left;
+    height:70px;
+}
+ul
+{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a
+{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+}
+ul li a:hover
+{ 
+    opacity: 0.7;
+    text-decoration: underline;
+    transition: opacity 0.3s;
+    color:#fa892d;
+}
+.search
+{
+    display: flex;
+    width:100px;
+    float:left;
+    margin-left:250px;
+}
+.srch
+{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background: transparent;
+    border: 1px solid #fa892d;
+    border-right: none;
+    border-top-right-radius: 0px;
+    margin-top: 13px;
+    margin-left: 450px;
+    color:white;
+    font-size: 16px;
+    float:left;
+    padding:10px;
+    border-radius:5px;
+}
+.btn
+{
+    cursor:pointer;
+    width:85px;
+    margin-top: 13px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:1px solid #fa892d;
+    background-color: #fa892d;
+    color:white;
+    height:40px;
+    font-size: 16px;
+}
+.register
+{
+    margin-left: 160px ;
+    padding-top: 40px;
+    margin-top:150px;
+    border-radius: 5px;
+    width:340px;
+    height:450px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    border: 2px solid white;
+    align-items: center;
+}
+.register .rhead
+{
+    padding-top: 5px;
+    margin-top: 15px;
+    font-size: 18px;
+    height: 30px;
+    font-family: 'Times New Roman';
+    width:80%;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    border: 1px solid black;
+    background-color: white;
+    color:orange;
+    border-radius: 5px;
+    text-align:center;
+    top:-20px;
+    left:870px;
+}
+.register .uname
+{
+    margin-top: 8px;
+    font-family: 'Times New Roman';
+    width:250px;
+    margin-left: 30px;
+    height:25px;
+    background: transparent;
+    margin-top: 13px;
+    color:white;
+    border: 1px solid #fa892d;
+    font-size: 16px;
+    float:left;
+    border-radius: 5px;
+    padding:10px;
+}
+.register .id
+{
+    margin-top: 8px;
+    font-family: 'Times New Roman';
+    width:250px;
+    margin-left: 30px;
+    height:25px;
+    background: transparent;
+    margin-top: 13px;
+    color:white;
+    border: 1px solid #fa892d;
+    font-size: 16px;
+    float:left;
+    border-radius: 5px;
+    padding:10px;
+
+}
+.register .pwd
+{
+    margin-top: 8px;
+    font-family: 'Times New Roman';
+    width:250px;
+    margin-left: 30px;
+    height:25px;
+    background: transparent;
+    margin-top: 13px;
+    color:white;
+    border: 1px solid #fa892d;
+    font-size: 16px;
+    float:left;
+    border-radius: 5px;
+    padding:10px;
+}
+.register .registerbtn
+{
+    cursor: pointer;
+    margin-top:25px;
+    width:272px;
+    height:35px;
+    border: 1px solid #fa892d;
+    background-color: #fa892d;
+    color:black;
+    font-size: 18px;
+    border-radius:5px;
+    font-family: 'Times New Roman';
+    margin-left: 30px;
+}
+.register .follow
+{ 
+    margin-top: -352px;
+    margin-left:550px ;
+}
+.register .follow a
+{
+    font-family: 'Times New Roman';
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.follow i
+{
+    color:white;
+}
+.register .follow h1
+{
+    font-family: 'Times New Roman';
+    color: #fa892d;
+    text-decoration: underline;
+}
